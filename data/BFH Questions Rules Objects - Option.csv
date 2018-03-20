@@ -1,0 +1,9 @@
+ID,text,value,description
+yes,yes,,
+no,no,,
+male,male,,
+female,female,,
+menstruating,NOT Menopausal (I still have menstrual periods fairly regularly),,
+Perimenopausal,PERI-Menopausal (I am going through the change now),,
+Menopausal,Menopausal (I will never have menstrual periods again),,
+None,none,0,

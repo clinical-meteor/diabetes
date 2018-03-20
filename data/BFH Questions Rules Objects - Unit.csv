@@ -1,0 +1,8 @@
+ID,type,text,abbreviation,relativeAmplitude,referenceUnit
+lb,english,pounds,lb,2.20462262,kg
+kg,metric,kilograms,kg,1,kg
+dl,metric,deciliters,dl,10,l
+m,metric,meters,m,1,m
+cm,metric,centimeters,cm,100,m
+inch,english,inches,inches,39.3700787,m
+oz,english,ounces,oz,33.8140227,l

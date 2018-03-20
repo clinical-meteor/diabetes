@@ -1,0 +1,9 @@
+ID,value
+QuestionsToLoadInitially,5
+QuestionsToLoadMore,1
+PreferredNumberOfQuestionsPerSession,5
+AlwaysLoadQuestionsBelowPriority,20
+RemindAfterDaysWithoutReminder,7
+RemindAfterDaysWithoutAnswer,7
+ReminderFromEmail,test@qa.inqle.org
+ReminderFromName,Dr. Donohue

@@ -1,0 +1,7 @@
+ID,units,referenceUnit
+BodyWeight,"kg
+lb",kg
+BodyHeight,"cm
+inch",m
+BeverageSize,"dl
+oz",dl

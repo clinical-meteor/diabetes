@@ -1,0 +1,25 @@
+ID,questionText,priority,minInterval,hint,answerPrefix,answerSuffix,answerType,measure,options,answerMinimum,answerMaximum,conditions,formulas,parentQuestions,childQuestions
+Weight,"What do you weigh?
+",1,1,without any clothes,I weigh,,double,BodyWeight,,0,,,BMI,,
+Gender,What is your biological gender?,40,100000,,I am a,,options,,"Female
+Male",,,,,,
+Height,How tall are you?,50,365,,My height is,,double,BodyHeight,,0,,,BMI,,
+DiabetesDuration,How long have you had diabetes?,60,100000,What is the circumference of your waist at its narrowest point?,My waist size is,,double,BodyHeight,,0,,,,,
+HoursOfExercise,"how many minutes do you exercise per day, on average?",80,7,,I exercise,minutes per day on average,duration,,,0,,,,,
+AvgDailyFruitVeg,How many servings of fruits and vegetables do you average each day?,100,7,Just give your best estimate,I ate an average of,fruits and vegetables per day,double,,,0,,,,,
+FastFoodMeals,How many meals did you eat at a fast food or convenience store?,200,7,"This includes doughnut shops, sandwich shops, and coffee shops.",I ate,total meals at a fast food or convenience store in the last 7 days,double,,,0,,,,,
+AvgDailySweetBeverages,How many sweet beverages did you drink per day?,250,7,Please estimate your average daily intake of sweet beverages like fruit juices and soft drinks.,I drank an average of,sweet beverages per day,double,,,0,,,,,
+EveningSnacks,How many evening snacks did you eat?,300,7,This includes any food you ate after the evening meal.,I ate,total evening snacks in the last 7 days,double,,,0,,,,,
+AvgDailyMeatServings,How many servings of meat did you eat per day?,400,7,"A serving of meat is 3 ounces (about 1/3 of a cup) of beef, fish, poultry, pork, or other animal product.",I ate an average of,servings of meat per day.,double,,,0,,,,,
+NonHomePreparedMeals,How many meals did you that were NOT home-prepared?,450,7,A home-prepared meal is a meal that was prepared at home.,I ate,total meals that were NOT prepared at home,double,,,0,,,,,
+LunchMealsOut,How many times did you buy your lunch?,500,7,,I bought my lunch,times in the last 7 days,double,,,0,7,,,,
+AvgDailySweetSnacks,How many sweet snacks did you eat per day?,550,7,"Please estimate your average daily intake of sweet snacks like ice cream (half cup per serving), cookies (2 Oreo cookies per serving).",I ate an average of,servings per day of sweet snacks,double,,,0,,,,,
+AvgDailyDairyServings,How many servings of dairy did you eat per day?,600,7,"A serving of dairy is one cup of milk or yogurt, 2 ounces of cheese, or a half cup of ice cream, cottage cheese, or pudding",I ate an average of,servings of dairy products per day,double,,,0,,,,,
+AvgDailyJunkFood,How many servings of junk food did you eat?,900,7,Junk food is like art.  You know it when you see it.,I ate an average of,servings per day of junk food,double,,,,,,,,
+OverallSleepRating,"On a scale of 0 (worst possible) to 10 (best possible), please rate the overall quality and quantity of sleep you have had.",1400,7,0=terrible sleep; 10=plenty of great sleep,I rate my overall sleep at,out of 10,double,,,0,10,,,,
+AvgDailySleep,How many hours of sleep did you get per 24 hours?,1500,7,Please estimate your average daily sleep over the last 7 days.,I slept an average of,hours per 24 hour day,double,,,,,,,,
+Menopause,"Have you gone through menopause (""the change of life"")?",1500,365,,,,options,,"Menstruating
+Perimenopausal
+Menopausal
+",,,Gender == 'Female',,,
+OvereatQWk,How many times do you overeat in a week?,850,7,Overeating means you felt too full after eating.,,,double,,,,,,,,

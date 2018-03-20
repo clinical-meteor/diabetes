@@ -1,0 +1,9 @@
+ID,expression,inputs
+BMI,BMI = body.weight / (body.height * body.height),body.weight; body.height
+Age,yearsSince(demo.dob),demo.dob; now
+EverHypoglycemiaCalc,EverHypoglycemia || HypoglycemiaMonth > 0 || values.glucose.minimum < 70,EverHypoglycemia; HypoglycemiaMonth; values.glucose.minimum
+OnHypoglycemicCalc,"OnHypoglycemic || includes(med.classes.current, 'hypoglycemic')",values.meds.classes.current
+HypoglycemiaWithin6Months,daysSince(MostRecentHypoglycemia) < 180,MostRecentHypoglycemia; now
+HypoglycemiaRisk,OnInsulin || OnHypoglycemic || HypoglycemiaWithin6Months || EverLifeThreateningHypoglycemia,OnInsulin; EverHypoglycemiaCalc
+HasDiabetes,"DoYouHaveDiabetes || WhoHasDiabetes == 'me' || maxValue('labs.diabetes.fasting', 365) > 125 || latestValue('labs.hemoglobinA1c', 1000) >= 6.5",
+BPRisk,"body.BP.systolic && maxValue(body.BP.systolic, 60) > 160 || body.BP.systolic && minValue(body.BP.systolic, 60) < 100 || SymptomaticHypotension",body.BP.systolic; SymptomaticHypotension

@@ -1,0 +1,7 @@
+ID,title,summary,body,personalizedSummary,personalizedBody,priority,minInterval,conditions,reference,url
+Obesity,Obesity,Obesity is defined as having a body mass index (BMI) of 30 or more.,"Obesity has been shown to be associated with diabetes, heart disease, lung disease, arhtritis, and shortened life span.",Your body mass index is @{Math.round(BMI)}.,"A normal BMI is between 18.5 and 24.9.  To have a normal BMI, you would have to get down to @{Math.round(Height * Height * 24.9)} kg (@{Math.round(Height * Height * 54.78)} lb).",1,90,BMI >= 30,"http://www.nlm.nih.gov/medlineplus/obesity.html, http://www.nlm.nih.gov/medlineplus/news/fullstory_106173.html","http://www.nlm.nih.gov/medlineplus/obesity.html
+"
+Overweight,Overweight,Overweight is defined as having a body mass index (BMI) of 25 to 29.9.,"Being overweight has been shown to be associated with diabetes, heart disease, and shortened life expectancy.",Your body mass index is @{Math.round(BMI)}.,"A normal BMI is between 18.5 and 24.9.  To have a normal BMI, you would have to get down to @{Math.round(Height * Height * 24.9)} kg (@{Math.round(Height * Height * 54.78)} lb).",5,90,BMI >= 25 && BMI < 30,"http://www.nhlbi.nih.gov/health/dci/Diseases/obe/obe_whatare.html
+","http://www.nhlbi.nih.gov/health/dci/Diseases/obe/obe_whatare.html
+"
+Reminder,Reminder,,,Please visit inqle-qa to answer questions about you!,It is time to visit your personal survey engine and answer new questions about yourself.,,,,,
