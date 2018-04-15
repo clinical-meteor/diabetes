@@ -3,18 +3,14 @@ import PostcardPage from './client/PostcardPage.jsx';
 
 var DynamicRoutes = [{
   'name': 'HelloWorldPage',
-  'path': '/hello-world',
+  'path': '/diabetes',
   'component': HelloWorldPage
-}, {
-  'name': 'SampleRoute',
-  'path': '/postcard',
-  'component': PostcardPage
 }];
 
 var SidebarElements = [{
-  'primaryText': 'Example Page',
-  'to': '/hello-world',
-  'href': '/hello-world'
+  'primaryText': 'Diabetes',
+  'to': '/diabetes',
+  'href': '/diabetes'
 }];
 
 export { SidebarElements, DynamicRoutes, SamplePage, PostcardPage };
